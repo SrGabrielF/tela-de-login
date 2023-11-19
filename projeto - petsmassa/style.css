@@ -1,0 +1,608 @@
+
+.container-login {
+  max-width: 1100px; /* ou a largura desejada */
+  margin: auto;
+}
+
+
+.container-login {
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.tela-de-login {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.tela-de-login {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.tela-de-login .overlap {
+    margin: auto;
+    position: absolute;
+    left: 0px;
+    /* Ou use a forma abreviada: margin: auto; */
+  }
+
+.tela-de-login .rectangle {
+  position: absolute;
+  width: 761px;
+  height: 544px;
+  top: 110px;
+  left: 232px;
+  background-color: #ffffff;
+}
+
+.tela-de-login .bse-conteudo {
+  position: absolute;
+  width: 1100px;
+  height: 786px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+  border-radius: 40px;
+}
+
+.tela-de-login .text-wrapper {
+  position: absolute;
+  width: 217px;
+  top: 196px;
+  left: 284px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .rectangle-2 {
+  position: absolute;
+  width: 242px;
+  height: 31px;
+  top: 237px;
+  left: 271px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-3 {
+  position: absolute;
+  width: 242px;
+  height: 31px;
+  top: 456px;
+  left: 271px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-4 {
+  position: absolute;
+  width: 242px;
+  height: 31px;
+  top: 508px;
+  left: 271px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-5 {
+  position: absolute;
+  width: 242px;
+  height: 31px;
+  top: 341px;
+  left: 271px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-6 {
+  position: absolute;
+  width: 242px;
+  height: 31px;
+  top: 289px;
+  left: 271px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .p {
+  width: 185px;
+  top: 245px;
+  position: absolute;
+  left: 311px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000c9;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .esqueceu-sua-senha {
+  position: absolute;
+  width: 228px;
+  top: 549px;
+  left: 278px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: transparent;
+  font-size: 12px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .span {
+  color: #000000c9;
+}
+
+.tela-de-login .text-wrapper-2 {
+  color: #82997e;
+}
+
+.tela-de-login .text-wrapper-3 {
+  width: 195px;
+  top: 349px;
+  position: absolute;
+  left: 311px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000c9;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-4 {
+  width: 183px;
+  top: 297px;
+  position: absolute;
+  left: 311px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000c9;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .img {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 296px;
+  left: 285px;
+  object-fit: cover;
+}
+
+.tela-de-login .image {
+  width: 16px;
+  top: 243px;
+  left: 285px;
+  position: absolute;
+  height: 18px;
+  object-fit: cover;
+}
+
+.tela-de-login .image-2 {
+  width: 19px;
+  top: 347px;
+  left: 284px;
+  position: absolute;
+  height: 18px;
+  object-fit: cover;
+}
+
+.tela-de-login .rectangle-7 {
+  position: absolute;
+  width: 408px;
+  height: 491px;
+  top: 148px;
+  left: 550px;
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-color: #000000;
+}
+
+.tela-de-login .text-wrapper-5 {
+  position: absolute;
+  width: 23px;
+  top: 401px;
+  left: 379px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .line {
+  left: 271px;
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  top: 409px;
+  object-fit: cover;
+}
+
+.tela-de-login .line-2 {
+  left: 434px;
+  position: absolute;
+  width: 80px;
+  height: 1px;
+  top: 409px;
+  object-fit: cover;
+}
+
+.tela-de-login .text-wrapper-6 {
+  position: absolute;
+  width: 195px;
+  top: 464px;
+  left: 311px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000c9;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-6 input {
+  border: none; /* Remove a borda padrão */
+  border-bottom: 1px solid transparent; /* Adiciona uma borda inferior transparente */
+  outline: none; /* Remove a borda de foco padrão ao clicar no campo */
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+.tela-de-login .text-wrapper-7 {
+  position: absolute;
+  width: 195px;
+  top: 516px;
+  left: 311px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #000000c9;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-7 input {
+  border: none; /* Remove a borda padrão */
+  border-bottom: 1px solid transparent; /* Adiciona uma borda inferior transparente */
+  outline: none; /* Remove a borda de foco padrão ao clicar no campo */
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+.tela-de-login .text-wrapper-8 {
+  position: absolute;
+  width: 217px;
+  top: 153px;
+  left: 645px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .rectangle-8 {
+  position: absolute;
+  width: 284px;
+  height: 31px;
+  top: 280px;
+  left: 612px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-9 {
+  position: absolute;
+  top: 358px;
+  left: 612px;
+}
+
+
+
+.text-wrapper-9 input {
+  border: none; /* Remove a borda padrão */
+  border-bottom: 1px solid transparent; /* Adiciona uma borda inferior transparente */
+  outline: none; /* Remove a borda de foco padrão ao clicar no campo */
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+
+.text-wrapper-10 input {
+  border: none; /* Remove a borda padrão */
+  border-bottom: 1px solid transparent; /* Adiciona uma borda inferior transparente */
+  outline: none; /* Remove a borda de foco padrão ao clicar no campo */
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+.tela-de-login .rectangle-12 {
+  position: absolute;
+  width: 284px;
+  height: 31px;
+  top: 234px;
+  left: 612px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .rectangle-13 {
+  position: absolute;
+  width: 284px;
+  height: 31px;
+  top: 188px;
+  left: 612px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #a0bb9b;
+}
+
+.tela-de-login .btn-cadastro {
+  position: absolute;
+  width: 185px;
+  height: 31px;
+  top: 597px;
+  left: 661px;
+  background-color: #19c37d;
+  border-radius: 15px;
+}
+
+.tela-de-login .text-wrapper-9 {
+  position: absolute;
+  width: 195px;
+  top: 196px;
+  left: 649px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-10 {
+  position: absolute;
+  width: 195px;
+  top: 288px;
+  left: 649px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-11 {
+  position: absolute;
+  width: 16px;
+  top: 365px;
+  left: 622px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-12 {
+  position: absolute;
+  width: 53px;
+  top: 365px;
+  left: 821px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-13 {
+  position: absolute;
+  width: 60px;
+  top: 365px;
+  left: 700px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .as-pessoas-que-usam {
+  position: absolute;
+  width: 352px;
+  top: 420px;
+  left: 613px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: transparent;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .text-wrapper-14 {
+  color: #000000;
+}
+
+
+
+.tela-de-login .text-wrapper-16 {
+  color: #ffffff;
+}
+
+.tela-de-login .text-wrapper-17 {
+  position: absolute;
+  width: 195px;
+  top: 243px;
+  left: 649px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 400;
+  color: #82997e;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.text-wrapper-17 input {
+  border: none; /* Remove a borda padrão */
+  border-bottom: 1px solid transparent; /* Adiciona uma borda inferior transparente */
+  outline: none; /* Remove a borda de foco padrão ao clicar no campo */
+  background-color: transparent; /* Torna o fundo transparente */
+}
+
+.tela-de-login .text-wrapper-18 {
+  position: absolute;
+  width: 195px;
+  top: 325px;
+  left: 612px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.tela-de-login .vector {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 197px;
+  left: 626px;
+}
+
+.tela-de-login .vector-2 {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  top: 463px;
+  left: 285px;
+}
+
+.tela-de-login .vector-3 {
+  position: absolute;
+  width: 15px;
+  height: 13px;
+  top: 244px;
+  left: 625px;
+}
+
+.tela-de-login .vector-4 {
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  top: 286px;
+  left: 625px;
+}
+
+.tela-de-login .vector-5 {
+  position: absolute;
+  width: 13px;
+  height: 17px;
+  top: 515px;
+  left: 285px;
+}
+
+.tela-de-login .vector-6 {
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  top: 370px;
+  left: 655px;
+}
+
+.tela-de-login .vector-7 {
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  top: 371px;
+  left: 874px;
+}
+
+.tela-de-login .vector-8 {
+  position: absolute;
+  width: 12px;
+  height: 8px;
+  top: 371px;
+  left: 777px;
+}
+
+.tela-de-login .text-wrapper-19 {
+  position: absolute;
+  width: 217px;
+  top: 604px;
+  left: 645px;
+  font-family: "Montserrat", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 15px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+.tela-de-login .butaoretangulo2 {
+    position: absolute;
+    width: 185px;
+    height: 31px;
+    top: 597px;
+    left: 302px;
+    background-color: #19c37d;
+    border-radius: 15px;
+}
+
+.tela-de-login .butao2 {
+    position: absolute;
+    width: 217px;
+    top: 604px;
+    left: 285px;
+    font-family: "Montserrat", Helvetica;
+    font-weight: 700;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: none;
+
+}
